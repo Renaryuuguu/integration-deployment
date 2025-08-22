@@ -37,3 +37,8 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       - name: Install dependencies
         run: pnpm install
+      - name: Build pages
+        run: |
+          pnpm run build
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
