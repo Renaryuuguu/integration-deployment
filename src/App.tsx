@@ -5,8 +5,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const str = "hello lint"
-  console.log(str)
+  // const str = "hello lint"
+  // console.log(str)
   return (
     <>
       <div>
