@@ -9,6 +9,8 @@ function App() {
   // console.log(str)
   return (
     <>
+      <h1>Integration Deployment</h1>
+      <p>This is a demo of integrating Vite and React.</p>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
