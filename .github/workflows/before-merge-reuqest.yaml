@@ -13,6 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           ref: ${{ github.event.after }}
           repository: ${{ github.repository }}
       - name: Use Node.js ${{ matrix.node-version }}
